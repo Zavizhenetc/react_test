@@ -1,0 +1,11 @@
+@import url('./__title/contacts__title.css');
+.contacts {
+    width: 95%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:991px) {
+    .contacts {
+        width: 83%;
+    }
+}

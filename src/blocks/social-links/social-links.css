@@ -1,0 +1,15 @@
+@import url('./__link/social-links__link.css');
+.social-links {
+    padding: 0;
+    list-style: none;
+    margin-top: 0;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:451px) {
+    .social-links {
+        margin-top: 32px;
+    }
+}

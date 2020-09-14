@@ -1,0 +1,22 @@
+.contacts-social__link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  list-style: none;
+  display: inline;
+  margin-right: 47px;
+}
+.contacts-social__link:last-child {
+  margin-right: 0;
+}
+@media screen and (max-width: 451px) {
+  .contacts-social__link {
+    display: block;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 8px;
+  }
+}

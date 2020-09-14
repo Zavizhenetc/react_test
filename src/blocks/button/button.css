@@ -1,0 +1,26 @@
+@import url('./_footer/button_footer.css');
+.button {
+    margin: 0;
+    margin-top: 24px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    background: #ffbb01;
+    box-shadow: 0px 4px 0px #b68500;
+    border-radius: 5px 5px 10px 10px;
+    border: none;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 451px) {
+    .button {
+        margin-top: 45px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
