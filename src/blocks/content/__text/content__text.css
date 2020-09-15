@@ -1,0 +1,19 @@
+.content__text {
+  margin-top: 20px;
+  max-width: 445px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+@media screen and (max-width: 451px) {
+  .content__text {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 18px;
+   padding-left: 20px;
+   padding-right: 20px;
+  }
+}

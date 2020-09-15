@@ -1,0 +1,6 @@
+@import url('./__title/contacts-social__title.css');
+@import url('./__link/contacts-social__link.css');
+@import url('./__links/contacts-social__links.css');
+.contacts-social {
+    margin-bottom: 41px;
+}

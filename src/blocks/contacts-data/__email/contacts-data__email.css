@@ -1,0 +1,10 @@
+.contacts-data__email{
+    margin-right: 32px;
+    margin-left:auto;
+}
+@media screen and (max-width:451px){
+    .contacts-data__email{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}

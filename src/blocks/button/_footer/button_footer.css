@@ -1,0 +1,18 @@
+button.button_footer {
+  margin-top: 33px;
+  width: 80%;
+}
+@media screen and (max-width: 507px) {
+  button.button_footer {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 451px) {
+  .button.button_footer {
+    font-size: 10px;
+    line-height: 28px;
+    width: 85%;
+    height: 54px;
+    padding: 0;
+  }
+}

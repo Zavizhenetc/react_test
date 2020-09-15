@@ -1,0 +1,19 @@
+@import url('./__policy/contacts-text__policy.css');
+.contacts-text {
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: 87px;
+    max-width: 384px;
+}
+
+@media screen and (max-width: 990px) {
+    .contacts-text {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 451px) {
+    .contacts-text {
+        margin-top: 53px;
+    }
+}

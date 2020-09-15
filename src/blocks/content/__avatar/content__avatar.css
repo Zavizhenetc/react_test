@@ -1,0 +1,18 @@
+.content__avatar {
+    object-fit: cover;
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 769px) {
+    .content__avatar {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 451px) {
+    .content__avatar {
+        width: 113px;
+        height: 113px;
+    }
+}
+  

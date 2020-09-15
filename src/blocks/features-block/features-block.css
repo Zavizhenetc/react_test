@@ -1,0 +1,24 @@
+@import url('./__item/features-block__item.css');
+@import url('./__text/features-block__text.css');
+@import url('./__title/features-block__title.css');
+.features-block {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-row-gap: 76px;
+    grid-column-gap: 16px;
+}
+
+@media screen and (max-width: 720px) {
+    .features-block {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+}
+
+@media screen and (max-width: 451px) {
+    .features-block {
+        padding-top: 60px;
+        grid-row-gap: 35px;
+        grid-template-columns: repeat(auto-fill, minmax(279px, 1fr));
+    }
+}

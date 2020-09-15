@@ -1,0 +1,20 @@
+
+.social-links__link a {
+  display: inline-block;
+  margin-right: 17px;
+}
+.social-links__link:last-of-type {
+  margin-right: 0;
+}
+@media screen and (max-width:451px){
+  .social-links__link{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    object-fit: cover;
+
+  }
+  .social-links__link:last-child {
+    margin-right: 8px;
+}
+}

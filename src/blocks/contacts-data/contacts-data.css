@@ -1,0 +1,17 @@
+@import url('./__phone/contacts-data__phone.css');
+@import url('./__phone-title/contacts-data__phone-title.css');
+@import url('./__phone-number/contacts-data__phone-number.css');
+@import url('./__email/contacts-data__email.css');
+@import url('./__email-adress/contacts-data__email-adress.css');
+@import url('./__email-title/contacts-data__email-title.css');
+.contacts-data {
+    max-width: 384px;
+    display: flex;
+}
+
+@media screen and (max-width:451px) {
+    .contacts-data {
+        display: flex;
+        flex-direction: column;
+    }
+}
